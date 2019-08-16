@@ -49,6 +49,7 @@ div #img {
 }
 a:link {
     text-decoration: none;
+    color: rgb(77, 75, 75);
 }
 a:visited {
     text-decoration: none;
