@@ -12,7 +12,7 @@ form {
     text-align: center;
 }
 
-input {
+#searchbar {
     display: inline-block;
     border-radius: 5px;
     width: 27.5%;
@@ -24,7 +24,39 @@ input {
 
 }
 
+#button {
+    background-color: #afabab28;
+    color: rgb(75, 72, 72);
+    padding: 10px 20px;
+    border-style: none;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+
+input[type="button"] {
+    font-size: 15px;
+    font-family: "Arial", sans-serif;
+}
+
 input[type="text"] {
     font-size: 16px;
     font-family: "Arial", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+}
+.left {
+    padding: 8px;
+}
+
+.right {
+    float: right;
+    padding: 8px;
 }
