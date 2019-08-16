@@ -51,12 +51,26 @@ ul {
 
 li {
     display: inline;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
 }
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: rgb(77, 75, 75);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .left {
-    padding: 8px;
+    padding: 12px;
 }
 
 .right {
     float: right;
-    padding: 8px;
+    padding: 12px;
 }
