@@ -7,7 +7,6 @@ div img {
 }
 
 
-
 form {
     text-align: center;
 }
@@ -44,20 +43,9 @@ input[type="text"] {
     font-family: "Arial", sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0px;
-}
-
-li {
-    display: inline;
-    font-family: "Arial", sans-serif;
-    font-size: 13px;
-}
-
 div #img {
     margin: 0px 0px;
-    width: 25px;
+    width: 30px;
 }
 a:link {
     text-decoration: none;
@@ -71,11 +59,43 @@ a:hover {
     text-decoration: underline;
 }
 
-.left {
-    padding: 12px;
+.topl {
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 
+.topr {
+    top: 0;
+    right: 0;
+    position: fixed;
+}
 .right {
     float: right;
-    padding: 12px;
+}
+
+.bottomr {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+.bottoml {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    display: inline;
+}
+
+li {
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    padding: 15px;
+    display:inline-block;
 }
