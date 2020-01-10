@@ -6,3 +6,4 @@ I felt I struggled most with trying to get the navigation bar to line up correct
 by making a different list for the left and right part of the navigation bars. Overall, this was challenging but fun to see the website come to life
 as I was writing in HTML and CSS.  
 
+Link: https://albertoe22.github.io/google_homepage/
